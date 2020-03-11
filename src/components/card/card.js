@@ -6,10 +6,15 @@ export class Card extends React.Component{
             backgroundImage: 'url(' + this.props.item.img + ')',
           };
         return (
-        <div className = 'card' style={divStyle}>
+        <div>
+            <a href={this.props.item.url} className='card' style={divStyle}>
+            <div className="caption">
             <h2 className = "cardTitle">{this.props.item.title}</h2>
             <h3>{this.props.item.tagline}</h3>
         </div>
+            </a>
+        </div>
+
     )
 }
 }

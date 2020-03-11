@@ -20,15 +20,18 @@ render(){
 const testlist = [{
     title: 'John G Entertainment',
     tagline: 'Live Entertainment at its best',
-    img: 'magic.jpg'
+    img: 'magic.jpg',
+    url: 'http://www.magicjohng.com/'
 },
 {
     title:'One Degree Connect',
     tagline: 'Connecting Teams to Greatness', 
     img: 'audience.jpg',
+    url: 'http://www.onedegreeconnect.com/'
 },
 {
     title: 'Anaheim Community Foundation',
     tagline: '',
-    img: 'http://www.anaheimcf.org/wp-content/uploads/2018/07/acf-logo-new.jpg'
+    img: 'http://www.anaheimcf.org/wp-content/uploads/2018/07/acf-logo-new.jpg',
+    url: 'http://www.anaheimcf.org/'
 }];
