@@ -6,8 +6,8 @@ export class Header extends React.Component{
         return (
         <div className="header">
         <img src={headshot} alt="JohnG headshot" className="headshot" />
-            <h2>John Guastaferro</h2>
-            <h3>Connecting People to the Extraordinary</h3>
+            <h1>John Guastaferro</h1>
+            <h2>Connecting People to the Extraordinary</h2>
         </div>
         )
     }

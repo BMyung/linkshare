@@ -11,6 +11,11 @@
 .headshot{
   border-radius: 100%;
   height: 15rem;
+  margin: .5rem;
+}
+
+h1, h2, h3 {
+  color: white;
 }
 
 .card{
@@ -95,7 +100,7 @@ Alternate card link
 }
 
 .button:hover {
-  opacity:0.6;
+  opacity:0.7;
   box-shadow: none;
 }
 
@@ -174,4 +179,8 @@ Alternate card link
   text-decoration: none;
   display: block;
   height: 100%;
+}
+
+.music > h2 {
+  margin: 1rem auto 2rem;
 }
