@@ -13,12 +13,7 @@
   height: 15rem;
 }
 
-.cat1{
-  /* background-color: purple; */
-}
-
 .card{
-  background-color: aquamarine;
   border-radius: 15px;
   max-width: 725px;
   height: 325px;
@@ -32,7 +27,7 @@
   background-size: cover;
   position: relative;
   text-decoration: none;
-  transition: transform .75s;
+  transition: transform .7s;
 
 }
 
@@ -60,5 +55,123 @@ Alternate card link
 } */
 
 .card:hover {
-  transform: scale(1.125);
+  transform: scale(1.07);
+}
+
+.button {
+
+  border: 1px solid gray;
+  margin: 1rem;
+  border-radius: 10px;
+  list-style-type: none;
+  box-shadow: 1px 1px #666666;
+  width: 150px;
+
+}
+
+
+.iconContainer > ul {
+  
+  display: flex;
+  justify-content: center;
+}
+
+
+.iconContainer > ul> .button > a {
+  color: white;
+  display: block;
+  height: 50px;
+  width: 100%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button:hover {
+  opacity:0.6;
+  box-shadow: none;
+}
+
+.music{
+  margin: 2rem auto;
+  max-width: 725px;
+}
+
+.cover{
+  max-width: 60%;
+}
+
+.musicStores {
+  list-style: none;
+}
+
+.storeButton > a {
+  display: block;
+  width: 100%;
+  height: 75px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  
+}
+
+.storeButton {
+  /* border: 1px; */
+  margin: 1rem;
+  border-radius: 15px;
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+}
+
+.storeButton:hover {
+  transform: scale(1.07);
+}
+
+.musicStores > .storeButton > a > .icon > .fab {
+  font-size: 2.25rem;
+  margin-right: .75rem;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+   
+  
+}
+
+.contactInfo {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 1rem  auto;
+  background-color: #353535;
+  border: 1px solid white;
+  transition: transform .6s;
+
+}
+
+.contactInfo:hover{
+  transform: scale(1.07);
+}
+
+.contactInfo > a > .icon > i {
+  margin-right: 1rem;
+  color: white;
+}
+
+.contactInfo > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 100%;
 }

@@ -9,12 +9,12 @@ export class Music extends React.Component {
         }
     }
     render (){
-    const storeLinks = this.state.musicStore.map(d => <li key= {d.text} style={{backgroundColor: d.bg}}><a href={d.url}><i className={d.img}></i></a></li>)
+    const storeLinks = this.state.musicStore.map(d => <li className='storeButton' key= {d.text}><a href={d.url} style={{color: d.bg}}><span className='icon'><i className={d.img}></i>{d.text}</span></a></li>)
         return (
             <div className='music'>
                 <img src={cover} alt='guitar album cover' className='cover'/>
                 <h2>Discover John's latest album</h2>
-                <ul>
+                <ul className='musicStores'>
                     {storeLinks}
                 </ul>
 
@@ -26,7 +26,7 @@ export class Music extends React.Component {
 const storeList = [{
     text: 'GUITARRA on iTunes',
     url: 'http://itunes.apple.com/album/id1498055997?ls=1&app=itunes',
-    img: 'fab fa-itunes', 
+    img: 'fab fa-itunes-note', 
     bg: '#0070c9'
 },
 {
