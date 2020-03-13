@@ -2,6 +2,7 @@ import React from 'react'
 import {Card} from '../card/card'
 import {Social} from '../social/social'
 
+
 export class Professional extends React.Component{
     constructor(props){
         super(props);
@@ -35,7 +36,7 @@ const testlist = [{
 {
     title: 'Anaheim Community Foundation',
     tagline: '',
-    img: 'http://www.anaheimcf.org/wp-content/uploads/2018/07/acf-logo-new.jpg',
+    img: 'Samueli-ACF-Anaheim-Community-Impact-Grant.jpg',
     url: 'http://www.anaheimcf.org/'
 }];
 
