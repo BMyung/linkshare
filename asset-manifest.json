@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/linkshare/static/css/main.631e8369.chunk.css",
+    "main.js": "/linkshare/static/js/main.769ddfaf.chunk.js",
+    "main.js.map": "/linkshare/static/js/main.769ddfaf.chunk.js.map",
+    "runtime-main.js": "/linkshare/static/js/runtime-main.6c9fbc4c.js",
+    "runtime-main.js.map": "/linkshare/static/js/runtime-main.6c9fbc4c.js.map",
+    "static/js/2.a86a66fa.chunk.js": "/linkshare/static/js/2.a86a66fa.chunk.js",
+    "static/js/2.a86a66fa.chunk.js.map": "/linkshare/static/js/2.a86a66fa.chunk.js.map",
+    "index.html": "/linkshare/index.html",
+    "precache-manifest.912bdaf7129526752a181460b93632aa.js": "/linkshare/precache-manifest.912bdaf7129526752a181460b93632aa.js",
+    "service-worker.js": "/linkshare/service-worker.js",
+    "static/css/main.631e8369.chunk.css.map": "/linkshare/static/css/main.631e8369.chunk.css.map",
+    "static/js/2.a86a66fa.chunk.js.LICENSE.txt": "/linkshare/static/js/2.a86a66fa.chunk.js.LICENSE.txt",
+    "static/media/0.jfif": "/linkshare/static/media/0.34520d7f.jfif",
+    "static/media/guitarra.jfif": "/linkshare/static/media/guitarra.7a67ab38.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c9fbc4c.js",
+    "static/js/2.a86a66fa.chunk.js",
+    "static/css/main.631e8369.chunk.css",
+    "static/js/main.769ddfaf.chunk.js"
+  ]
+}
